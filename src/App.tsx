@@ -1,16 +1,13 @@
 import { Provider as ReduxProvider } from 'react-redux'
+import './styles/global.css'
 
-import { AddTodo } from "./components/AddTodo";
-import { TodoList } from "./components/TodoList";
 import { store } from './store';
+import { PLayer } from './pages/player';
 
 export function App() {
   return (
     <ReduxProvider store={store}>
-      <h1>Hello Zustand</h1>
-
-      <TodoList />
-      <AddTodo />
+      <PLayer />
     </ReduxProvider>
   )
 }

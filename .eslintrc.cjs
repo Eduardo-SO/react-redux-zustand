@@ -8,6 +8,7 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
     'plugin:@typescript-eslint/recommended-requiring-type-checking',
     'plugin:react-hooks/recommended',
+    '@rocketseat/eslint-config/react'
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
